@@ -1,0 +1,6 @@
+@import('config.css');
+
+.heading{
+	color: red;
+	font-size: 28px;
+}
