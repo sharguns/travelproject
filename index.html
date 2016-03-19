@@ -1,45 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>	
-
 	<!-- meta go here -->
 	<meta charset="UTF-8">
-	<meta name="description" content"Free web tutorials">
-	<title>Home Page</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trippn - Home Page</title>
 	<!-- meta ends here -->
 
 	<!-- styles go here -->
 	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- styles end here -->
 
-	<!-- js start here -->
-	<!-- js end here -->
+	<!-- bootstrap goes here-->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
 </head>
 
 <body>
 	<div class="global-container">
+		
+		<!-- global header starts here -->
 		<header>
-			<nav>
-			<ul>	
-				<li><a href="#">About</a></li>
-				<li><a href="#">More</a></li>
-				<li><a href="#">Contact</a></li>
+			<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    					<div class="navbar-header">
+      					<a class="navbar-brand" href="#">
+        				<img alt="Brand" src="src="images/logo.png>
+      					</a>
+    				</div>
+  				</div>
 			</nav>
+			<!-- <nav>
+				<img src="images/logo.png">
+				<ul>	
+					<li><a href="#">About</a></li>
+					<li><a href="#">More</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav> -->
 		</header>
-	
-		<div class="homepage-body-container">
-			<h1 class="heading">Home Page</h1>
+		<!-- global header ends here -->
 
-		</div>
+		<!-- homepage-body-container starts here-->	
+		<div id="homepage-body-container">
 
+			<!-- gallery starts here -->
+			<div class="fotorama"
+     			data-width="100%"
+     			data-ratio="800/600">
+				<img src="http://s.fotorama.io/1.jpg">
+	  			<img src="http://s.fotorama.io/2.jpg">
+			</div>
+
+			<h1 class="heading">Trippn is a place where you can shortlist, organize and share your favorite travel destinations </h1>		
+
+			<!-- info boxes start here -->
+			<div id="info-boxes">
+				<section class="first-box col-xs-12 col-lg-4">
+        			<h2>Shortlist</h2>
+        			<p>Shortlist ...lorem ipsum</p>
+        		</section>
+        		<section class="second-box col-xs-12 col-lg-4">
+        			<h2>Organize</h2>
+        			<p>Organize ...lorem ipsum</p>
+        		</section>
+        		<section class="third-box col-xs-12 col-lg-4">
+        			<h2>Share</h2>
+        			<p>Share ...lorem ipsum<p>
+        		</section>
+        		</div>
+    	</div>
+    	<!-- homepage-body-container ends here-->
+		
+		<!-- global footer starts here -->
 		<footer>
-			<p>footer text</p>
+			<p>Footer text</p>
 		</footer>
-
-	<!-- jQuery script starts here -->
-	<!-- jQuery script end here -->
+		<!-- global footer ends here -->
 
 	</div>
+	
+	<!-- jQuery script starts here -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	<!-- jQuery script end here -->
+
+	<!-- javascript starts here -->
+	<script src="js/script.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- javascript ends here -->
+
 </body>
 </html>
